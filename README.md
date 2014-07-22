@@ -7,3 +7,11 @@ This is a simple prototype to see how AngularJS could access node libraries dire
 
 When run with `nw`, this app simply lists the files in the current directory. You
 can change the directory and update the list of files.
+
+```
+git clone git@github.com:mikemilano/nw-ng.git
+cd nw-ng/
+npm install
+bower install
+nw .
+```
