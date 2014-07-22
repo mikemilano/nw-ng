@@ -1,0 +1,9 @@
+<h1>{{title}}</h1>
+
+Path: <input type="text" ng-model="ui.path" /> <button ng-click="refreshFiles()">Update</button>
+<hr />
+
+<h3>Files</h3>
+<ul>
+  <li ng-repeat="file in ui.files">{{ file }}</li>
+</ul>

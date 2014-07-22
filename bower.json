@@ -1,0 +1,28 @@
+{
+  "name": "nw-ng",
+  "version": "0.0.0",
+  "authors": [
+    "Mike Milano <coder1@gmail.com>"
+  ],
+  "license": "N/A",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.2.20",
+    "angular-cookies": "1.2.20",
+    "angular-resource": "1.2.20",
+    "angular-route": "1.2.20",
+    "angular-sanitize": "1.2.20",
+    "angular-touch": "1.2.20",
+    "angular-bootstrap": "*",
+    "bootstrap": "~3.0.0",
+    "jquery": "~2.0.3",
+    "underscore": "~1.5.1"
+  }
+}
